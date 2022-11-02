@@ -1,0 +1,459 @@
+@media all and (max-device-width:700px), all and (max-width:700px) {
+    main {
+    Width: 100%;
+    }
+    }
+
+body {
+    background-color: #22212C;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    color: #837e9f;
+}
+
+/* Conteúdo da página será dividido em duas sessões principais*/
+main {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    gap: 1.8rem;
+} 
+
+/* Sessão 1 */
+.section-1 {
+    width: 20rem;
+    margin-left: 2.5rem;
+}
+
+/* card perfil */
+.profile {
+    display: flex;
+    background: #302f3d;
+    width: 100%;
+    height: 18.25rem;
+    margin-top: 2.5rem;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+
+/* Estrutura principal do card*/
+.contentProfile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+/* Conteúdo do card */
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Foto do perfil */
+.content img {
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    border: 1px solid #000000;
+    box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Nome do Perfil*/
+#myName {
+    font-weight: 700;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+}
+
+/* Descrição da profissão */
+#mySkill {
+    font-weight: 300;
+    font-size: 0.8rem;
+    line-height: 1rem;
+}
+
+/* Card dos links */
+.links {
+    display: flex;
+    background: #302f3d;
+    width: 100%;
+    height: 21.7rem;
+    margin-top: 1.8rem;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+
+/* Estrutura principal do card*/
+.linksContent {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 1.8rem;
+    gap: 1.8rem;
+}
+
+/* Icones do card links*/
+.icons {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+    gap: 1.6rem;
+}
+
+/* Posicionamento dos icones do card links */
+.iconsName {
+    display: flex;
+    flex-direction: column;
+    margin-right: 2rem;
+    gap: 2rem;
+}
+
+/* Style de todos os links da página */
+a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    color: #837e9f;
+}
+
+/* Cards de tecnologias */
+.techs {
+    display: flex;
+    flex-direction: column;
+    background: #302f3d;
+    width: 100%;
+    height: 13rem;
+    margin-top: 1.8rem;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+
+/* Configurações do Titulo do card Tecnologias */
+.titleTech {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin-top: 1.8rem;
+    margin-left: 1.2rem;
+    margin-bottom: 1.2rem;
+}
+
+/* Estrutura das tecnologias */
+.myTechs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 0.6rem;
+    line-height: 0.8rem;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 1.8rem;
+ 
+}
+
+/* Tecnologias */
+.spanTech {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(192, 43, 43);
+    width: 4.8rem;
+    height: 1.5rem;
+    border-radius: 2rem;
+}
+
+/* Amarelo significa o entendimento médio da tecnologia destacada */
+#yellow {
+    background-color: rgb(172, 172, 56, 1);
+}
+
+/* Verde significa o entendimento pleno da tecnologia destacada */
+#green {
+    background-color: rgb(18, 151, 18, 1);
+}
+
+/* Da coluna 1 até a coluna 3 faz partes das configurações de posicionamento das mesmas */
+.colum-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    margin-left: 1.8rem;
+}
+
+.colum-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.colum-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    margin-right: 1.8rem;
+}
+
+/* Configurações do card Experiências e Educação */
+.experiences {
+    display: flex;
+    background: #302f3d;
+    width: 100%;
+    height: 21.8rem;
+    margin-top: 1.8rem;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+
+/* Estrutura do card Experiências e Educação */
+.myExperiences {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Configurações do título do card Experiências e Educação */
+.expTitle {
+    display: flex;
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin-top: 1.8rem;
+    margin-left: 1.2rem;
+}
+
+/* Configurações da lista de Experiências e Educação */
+.expColum {
+    display: flex;
+    margin-left: 1rem;
+    margin-top: -1rem;
+}
+
+/* Configurações do subtitulo da lista do card Experiências e Educação*/
+.expSubtitle {
+    display: flex;
+    width: 100%;
+    font-weight: 600;
+    font-size: 0.9rem;
+    margin-top: 1rem;
+}
+
+/* Configurações do período da lista de Experiências e Educação */
+.exPeriod {
+    display: flex;
+    font-size: 0.9rem;
+    font-weight: 1;
+}
+
+/* Configurações do nome da Experiência e Educação */
+.expName {
+    font-weight: 600;
+    font-size: 0.8rem;
+}
+
+/* Card Educação */
+.education {
+    display: flex;
+    background: #302f3d;
+    width: 100%;
+    height: 22rem;
+    margin-top: 1.8rem;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+
+}
+
+/* sessão dois da página principal */
+.section-2 {
+    flex: 1;
+    margin-right: 2rem;
+}
+
+/* Título da sessão 2 da páginas */
+.title {
+    display: flex;
+}
+
+/* Configurações de estilo e posicionamento do titulo da sessão 2 */
+.spanTitle {
+    display: flex;
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin-top: 1.8rem;
+    margin-left: 1.8rem;   
+}
+
+/* Configurações de posicionamento do titulo projeto */
+.projects {
+    display: flex;
+    background: #302f3d;
+    width: 100%;
+    height: 5.3rem;
+    margin-top: 2.5rem;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+
+/* Estrutura principal dos projetos */
+.gitProjects {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 1.8rem;
+    gap: 1.8rem;
+}
+
+/* Estrutura da sessão 1 dos projetos */
+.project-1 {
+    width: 50%;
+    height: 11.6rem;
+    background-color: #302f3d;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+
+}
+
+.projectStructure {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.8rem;
+    margin-left: 1.8rem;
+}
+
+.projectTitle {
+    display: flex;
+}
+
+.projectIcon {
+    margin-right: 1rem;
+}
+
+.projectName {
+    font-weight: 700;
+}
+
+.descriptionGit {
+    margin-top: 1.2rem;
+    margin-bottom: 2.5rem;
+}
+
+.footerProject {
+    display: flex;
+}
+
+.number {
+    margin-left: 0.4rem;
+}
+
+#number-branch {
+    margin-right: 13.6rem;
+}
+
+.iconFooter-2 {
+    margin-left: 1rem;
+}
+
+/* Estrutura da sessão 2 dos projetos */
+.project-2 {
+    width: 50%;
+    height: 11.6rem;
+    background-color: #302f3d;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+
+/* Estrutura principal da sessão posts recentes */
+.recentPosts {
+    display: flex;
+    background: #302f3d;
+    width: 100%;
+    height: 5.3rem;
+    margin-top: 2.5rem;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+
+/* Configurações de posicionamento da sessão de posts */
+.post-1 {
+    display: flex;
+    background: #302f3d;
+    width: 59.5rem;
+    height: 12.5rem;
+    margin-top: 2rem;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+
+/* Estrutura principal dos post */
+.structurePost {
+    display: flex;
+    flex-direction: row;
+    gap: 1.2rem;
+}
+
+/* Configurações de posicionamento da foto de perfil dos projetos */
+.photoProject {
+    display: flex;
+    margin-top: 1.8rem;
+    margin-left: 1.8rem;
+}
+
+/* Configurações de estilo da foto de perfil dos projetos */
+.imgProject {
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    border: 1px solid #000000;
+    box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.5);
+}
+
+/* Configurações do conteúdo dos projetos */
+.post {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.8rem;
+}
+
+/* Configurações de estilo e posicionamento do titulo dos posts */
+.titleProject {
+    display: flex;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+/* Configurações de posicionamento da data da produção do projeto */
+.dateProject {
+    display: flex;
+    margin-bottom: 1.7rem;
+}
+
+/* Configurações de posicionamento do site do projeto */
+.siteProject {
+    display: flex;
+    margin-bottom: 0.6rem;
+}
+
+/* Configurações de posicionamento das tags dos posts */
+.tagsProject {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 1.2rem;
+}
+
+.footerSpan {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10rem;
+}
+
